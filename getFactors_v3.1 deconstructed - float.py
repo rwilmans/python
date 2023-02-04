@@ -272,6 +272,10 @@ def rotated_search(P=3, quick = False):
 # ------------------------------------------------------------------------------------------------------------------
 def getFactors(P = 3, verify=False):
     """
+    Author: R.Wilmans-Sangwienwong
+    Date:   2023-01-03
+    Remarks: Feel free to use this piece of effort from my side with the requirement that you mention my name and
+                reference this original bit of code. (C) 2023
     :param P: The number for which to find factors (if not found, then it is prime!)
     :param verify: Boolean - indicate whether a brute-force testing afterwards is done
     :return: No parameters, just output to console
